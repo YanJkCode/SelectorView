@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="checked" format="boolean" />
+    <attr name="trueImgBackground" format="reference" />
+    <attr name="falseImgBackground" format="reference" />
+    <attr name="openClickChecked" format="boolean" />
+
+    <declare-styleable name="SelectorTextView">
+        <attr name="checked" />
+        <attr name="openClickChecked" />
+        <attr name="trueImgBackground" />
+        <attr name="falseImgBackground" />
+        <attr name="trueTextColor" format="reference|color" />
+        <attr name="falseTextColor" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="SelectorImageView">
+        <attr name="checked" />
+        <attr name="openClickChecked" />
+        <attr name="trueImgBackground" />
+        <attr name="falseImgBackground" />
+        <attr name="trueImgSrc" format="reference" />
+        <attr name="falseImgSrc" format="reference" />
+    </declare-styleable>
+
+</resources>
